@@ -9,6 +9,8 @@ p { margin: 0; padding: 0; }
 h1 { margin: 0 0 30px 21px; padding: 0; font-family: Nudista, arial; font-size: 32px; font-weight: normal; color: #ffffff; text-transform: uppercase; }
 h2 { margin: 0 0 20px 0; padding: 0; font-size: 18px; color: #ffffff; font-weight: normal; }
 h3 { margin: 0 0 12px 0; padding: 20px 0 0 0; font-size: 14px; color: #ffffff; }
+h3 { margin: 0 0 12px 0; padding: 20px 0 0 0; font-size: 14px; color: #ffffff; }
+h3 { margin: 0 0 12px 0; padding: 20px 0 0 0; font-size: 14px; color: #ffffff; }
 
 
 .wrapper { height: auto !important; margin: 0 auto -91px; }
