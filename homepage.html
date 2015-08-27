@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>Oceana - Homepage</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+jQuery(document).ready(function($){
+	$(".home-thumb a").hover(
+		function() {
+			$(this).find(".post-thumb-a").stop().animate({"opacity": "0"}, 500);
+			},
+		function() {
+			$(this).find(".post-thumb-a").stop().animate({"opacity": "1"}, 500);
+			});
+	 
+});
+</script>
+</head>
+
+<body id="homepage">
+<div class="wrapper">
+  <div id="header">
+    <div class="headerbg"><a href="#"><img src="images/logo.gif" alt="" title="" /></a></div>
+  </div>
+                    
+  <div id="contentblock">
+                        
+    <div class="home-thumb">
+      <a href="#">
+	<img class="post-thumb-a" src="images/refits_g.jpg" alt="" />
+	<img class="post-thumb-b" src="images/refits.jpg" alt="" />
+	<span>YACHT REFITS</span>
+      </a>
+    </div>
+
+                        
+    <div class="home-thumb">
+      <a href="#">
+	<img class="post-thumb-a" src="images/maintenance_g.jpg" alt="" />
+	<img class="post-thumb-b" src="images/maintenance.jpg" alt="" />
+	<span>YACHT MAINTENANCE</span>
+      </a>
+    </div>
+                        
+    <div class="home-thumb">
+      <a href="#">
+	<img class="post-thumb-a" src="images/agency_g.jpg" alt="" />
+	<img class="post-thumb-b" src="images/agency.jpg" alt="" />
+	<span>AGENCY</span>
+      </a>
+    </div>
+                        
+    <div class="home-thumb">
+      <a href="#">
+	<img class="post-thumb-a" src="images/portfolio_g.jpg" alt="" />
+	<img class="post-thumb-b" src="images/portfolio.jpg" alt="" />
+	<span>Portfolio</span>
+      </a>
+    </div>
+
+  </div>                                        
+
+  <div class="push"></div>
+</div>
+
+<div id="footer">
+  <div class="left">
+	&copy; 2010 OCEANA Ltd. - All rights reserved. <span>|</span>
+	<a href="#">About us</a> <span>|</span>
+	<a href="#">Contact</a> <span>|</span>
+	<a href="#">Privacy</a>
+  </div>
+
+  <div class="right">
+	<a href="#">CUSTOMER LOGIN</a>
+	Login to access your project status updates
+  </div>
+</div>
+
+</body>
+</html>
